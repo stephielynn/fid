@@ -36,6 +36,12 @@
       margin: 50px 0 25px;
     }
 
+    section {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 0 50px;
+    }
+
     h1 {
       text-align: center;
       font-family: Rockwell, 'Rockwell Nova', 'Roboto Slab', 'DejaVu Serif', 'Sitka Small', serif;
@@ -49,6 +55,14 @@
       word-wrap: break-word;
       text-align: center;
       margin-top: 100px;
+    }
+
+    #intro .avatar{
+      width: 250px;
+      float: left;
+      background-color: #fec5bb;
+      margin: 0 50px 25px;
+      border-radius: 250px;
     }
 
     .work-samples {
@@ -66,8 +80,8 @@
     }
 
     .work-samples li img{
-      height: 250px;
-      width: 250px;
+      height: 200px;
+      width: 200px;
       object-fit: cover;
       background-color: #fff;
       border-radius: 20px;
@@ -75,7 +89,7 @@
 
     #project{
         text-align: center;
-        margin: 50px 0;
+        margin: 50px auto;
     }
 
     #project img{
@@ -89,8 +103,13 @@
         font-style: italic;
     }
 
+    #social{
+      text-align: center;
+    }
+
     footer {
       border-top: 1px solid #8a7685;
       text-align: center;
       padding: 50px 0;
+      margin: 100px 0 0;
     }
