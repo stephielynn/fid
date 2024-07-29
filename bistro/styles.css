@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Corben:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a{
+  text-decoration: none;
+  font-weight: 600;
+  color: #5b849a;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+header {
+  color: #fff;
+  background-color: #000;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+}  
+
+.logo-jk {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 50px;
+}
+
+nav {
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  line-height: 50px;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1px;
+}
+
+nav a {
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #000;
+  background-color: #f8d42b;
+  padding: 12px 32px;
+  box-sizing: border-box;
+  letter-spacing: .15rem;
+}
+
+nav a:hover, nav a:active, nav a.current-page {
+  border-bottom: 5px solid #fff;
+  text-decoration: none;
+}
+
+.container {
+  background: #fff;
+  display: block;
+  margin: 100px auto;
+  max-width: 1400px;
+  padding: 0 10%;
+}
+
+.container-fullwidth{
+  background: #fff;
+  margin: 100px auto;
+  font-size: 22px;
+  max-width: 1400px;
+  padding: 0 10%;
+}
+
+.container-fullwidth.gallery h2{
+  margin-left: 0;
+  transform: none;
+}
+
+.container-fullwidth.gallery{
+  text-align: center;
+}
+
+.container-fullwidth.gallery img{
+  max-width: 100%;
+}
+
+.container-fullwidth.recipe ol{
+  border-bottom: 1px solid black;
+  padding-bottom: 75px;
+  margin-bottom: 75px;
+}
+
+.sidebar {
+  text-align: center;
+}
+
+.content p{
+  font-size: 22px;
+  margin-bottom: 50px;
+  line-height: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Corben", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  text-align: center;
+  font-size: 72px;
+  line-height: 80px;
+  padding: 30px 0;
+  margin:0;
+}
+
+h2 {
+  text-align: center;
+  display: inline-block;
+  font-size: 36px;
+  line-height: 40px;
+  margin: 0 auto;
+  border-bottom: 1px;
+  box-shadow: inset 0 -12px 0 rgb(255, 231, 180), 0 0px 0 rgb(255, 231, 180);
+}
+
+.container-fullwidth h2{
+  font-size: 42px;
+  display: inline-block;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 50px;
+}
+
+h3{
+  font-size: 28px;
+  margin: 0;
+}
+
+h4{
+  font-size: 24px;
+  margin: 0;
+}
+
+article header{
+  background: #fff;
+  color: #000;
+}
+
+article dl{
+  margin-left: 30px;
+}
+
+article dt{
+  font-weight: bold;
+  margin-top: 18px;
+}
+
+article dt strong{
+  color: red;
+}
+
+.container-fullwidth.single-article img{
+  float: right;
+  margin: 0 12px;
+}
+
+.order-button{
+  margin: 0 auto 50px;
+  display: block;
+}
+
+content p {
+  font-size: 18px;
+}
+
+.content fieldset{
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+form p {
+  margin: 0;
+}
+
+form ul{
+  padding: 0;
+}
+
+form li{
+  list-style-type: none;
+  margin-bottom: 12px;
+}
+
+form, form label{
+  font-size:22px;
+}
+
+form legend{
+  font-weight: 700
+}
+
+.form-buttons{
+  margin-top: 20px;
+}
+
+form h3, fieldset fieldset{
+  margin-top: 50px;
+}
+
+form input, form textarea, form select {
+  width: 100%;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+form input[type=submit], form input[type=reset]  {
+  width: auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #f7961e;
+  border: 1px solid #f7961e;
+  padding: 12px 24px;
+}
+
+form input[type=reset] {
+  width: auto;
+  background-color: #fff;
+  border: 1px solid #f7961e;
+}
+
+article{
+  box-sizing: border-box;
+  border: 1px solid black;
+  width: 80%;
+  margin: 20px auto;
+  padding: 50px;
+}
+
+p.meta{
+  font-weight: 700;
+}
+
+article p.meta{
+  font-size: 16px;
+  font-style: italic;
+  margin: 0;
+}
+
+.news-return{
+  margin-top: 75px;
+  padding-top: 75px;
+  border-top: 1px solid black;
+  text-align: center;
+}
+
+footer {
+  border-top: 1px solid #57b1dc;
+  text-align: center;
+  padding: 75px 0;
+  color: #fff;
+  background-color: #000;
+}
+
+footer img {
+  width: 40px;
+  height: 40px;
+  margin-left: .5em;
+  margin-right: .5em;
+}
+
+.copyright{
+  font-size: 14px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+@media (min-width:768px) {
+  .container {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 10%;
+  }
+  .sidebar {
+    order: -1;
+  }
+}
